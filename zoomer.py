@@ -1,3 +1,4 @@
+#initial version 1.0.
 import requests
 from bs4 import BeautifulSoup
 
