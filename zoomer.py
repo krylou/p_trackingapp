@@ -35,8 +35,8 @@ print (en, ru, ge)
 
 if en == 1 or ru == 1 or ge == 1:
     actual_stock = "Нет в наличии!"
-#    telegram_bot_sendtext(actual_stock + stock_str)
+    telegram_bot_sendtext(actual_stock + stock_str)
 else:
     actual_stock = "Есть в наличии!!"
-    telegram_bot_sendtext(actual_stock + stock_str)    
+#    telegram_bot_sendtext(actual_stock + stock_str)    
 print(actual_stock)
